@@ -72,7 +72,7 @@ tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch
 
 ### Serving with Air
 
-With the [Air Binary](https://github.com/cosmtrek/air) installed and moved somewhere on your PATH, run the following to serve and hot reload the application:
+With the [Air Binary](https://github.com/cosmtrek/air) installed and moved somewhere on your PATH, the first command (templ generate) will generate the HTML components and templates and then automatically run air to start the server.
 
 ```bash
 air
@@ -92,4 +92,3 @@ Note, htmx and your tailwind output are included in the head of this template:
 ### Inspired from
 
 [templ-quickstart](https://github.com/phillip-england/templ-quickstart)
-
