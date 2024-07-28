@@ -74,10 +74,6 @@ tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch
 
 With the [Air Binary](https://github.com/cosmtrek/air) installed and moved somewhere on your PATH, the first command (templ generate) will generate the HTML components and templates and then automatically run air to start the server.
 
-```bash
-air
-```
-
 To configure air, you can modify .air.toml in the root of the project. (it will be auto-generated after the first time you run air in your repo)
 
 ## Project Overview
