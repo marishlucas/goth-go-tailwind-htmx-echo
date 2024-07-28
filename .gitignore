@@ -1,0 +1,7 @@
+.env
+tmp
+
+static/css/output.css
+
+**/*templ.go
+**/*templ.txt
